@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+		'model_node = bachelor.model_node:main',
         ],
     },
 )
